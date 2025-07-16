@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D MODELS</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/280x280_RS/81/ca/52/81ca52bafc355c0fc833b1c6a52af97a.jpg">
+    <style>
+.button-container {
+        text-align: center;
+    }
+        body {
+            background-image: url('images/my background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            margin: 0;
+            height: 100vh;
+        }
+
+    .image-container {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .hover-img {
+      height: 400px;
+      transition: all 0.3s ease;
+    }
+
+    /* Подмена картинок при наведении */
+    .img1:hover {
+      content: url('images/2.png');
+    }
+
+    .img3:hover {
+      content: url('images/4.png');
+    }
+
+    .img5:hover {
+      content: url('images/6.png');
+    }
+
+    .img7:hover {
+      content: url('images/8.png');
+    }
+
+    .img9:hover {
+      content: url('images/10.png');
+    }
+
+    /* Дополнительный отступ для последнего изображения */
+    .img9 {
+      margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+<h1 style="font-family:verdana; color:white; text-align:center;">SELECT A MODEL AND CLICK</h1>
+<div class="image-container" style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0 50px;">
+<a href="https://www.mediafire.com/file/89ct1qz0f9jqoyt/Glamrock_Candy.rar/file" target="_blank">
+  <img src="images/1.png" class="hover-img img1" style="height: 400px;" alt="">
+</a>
+<a href="https://www.mediafire.com/file/t7zxfk98o3y1omj/Glamrock_Cindy.rar/file" target="_blank">
+<img src="images/3.png" class="hover-img img3" style="height: 400px;" alt="">
+</a>
+<a href="https://www.mediafire.com/file/pel1gaxc0bh4693/GLAMROCK_PopGoes.rar/file" target="_blank">
+<img src="images/5.png" class="hover-img img5" style="height: 400px;" alt="">
+</a>
+<a href="https://www.mediafire.com/file/qm7e9qvvdghdq56/GLAMROCK_Forgotten_Candy.rar/file" target="_blank">
+<img src="images/7.png" class="hover-img img7" style="height: 400px;" alt="">
+</a>
+<a href="https://www.mediafire.com/file/nfs0ptu9szcbe9b/Stylized_glamrock_Candy_and_Cindy.rar/file" target="_blank">
+<img src="images/9.png" class="hover-img img9" style="height: 400px;" margin-top: 50px; alt="">
+</a>
+</div>
+<ul>
+<h1 style="font-family:verdana; color:white; text-align:center;">RULES:</h1>
+<h2 style="font-family:verdana; color:white; text-align:center;">-No NSFW</h2>
+<h2 style="font-family:verdana; color:white; text-align:center;">-Don't call these models your property</h2>
+<\ul>
+</body>
+</html>
